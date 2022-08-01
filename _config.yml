@@ -54,14 +54,15 @@ tag_page_layout: category
 tag_page_dir: tag
 tag_permalink_style: pretty
 
-    
 collections:
   projects:
     output: true
     permalink: /project/:path/
+    sort_by: project_id
   services:
     output: true
     permalink: /service/:path/
+    sort_by: service_id
 
 feed:
   collections:

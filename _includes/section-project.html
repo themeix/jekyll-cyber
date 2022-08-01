@@ -3,60 +3,24 @@
         <div class="row align-items-center mb-55">
             <div class="col-lg-6">
                 <div class="section-title">
-                    <span>Our Recent Projects</span>
-                    <h4 class="title">Our Tech Projects</h4>
+                    <span>{{site.data.site_data.home.projects_section.top_heading}}</span>
+                    <h4 class="title">{{site.data.site_data.home.projects_section.heading}}</h4>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="section-title pl-100">
-                    <p>There are many variations of passages of available but majority have suffered alteration in
-                        some form, by humou or randomised words which don't look even slightly believable.</p>
+                    <p>{{site.data.site_data.home.projects_section.description}}</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid pl-160 pr-160">
         <div class="row infetech-project-slide">
+            {% for project in site.projects %}
             <div class="col-lg-3">
-                <div class="single-project-item">
-                    <img src="assets/images/project-1.jpg" alt="">
-                    <div class="single-project-overlay">
-                        <h4 class="title"> Hermes Device</h4>
-                        <span>DESIGN / IDEAS</span>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
+                {% include project-card.html %}
             </div>
-            <div class="col-lg-3">
-                <div class="single-project-item">
-                    <img src="assets/images/project-2.jpg" alt="">
-                    <div class="single-project-overlay">
-                        <h4 class="title">Charon Lite</h4>
-                        <span>DESIGN / IDEAS</span>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="single-project-item">
-                    <img src="assets/images/project-3.jpg" alt="">
-                    <div class="single-project-overlay">
-                        <h4 class="title">VPN</h4>
-                        <span>DESIGN / IDEAS</span>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="single-project-item">
-                    <img src="assets/images/project-4.jpg" alt="">
-                    <div class="single-project-overlay">
-                        <h4 class="title">Global Coverage SIM</h4>
-                        <span>DESIGN / IDEAS</span>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
 
         </div>
     </div>

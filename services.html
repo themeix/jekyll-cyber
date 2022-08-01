@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Services
+permalink: /all-services
+
 ---
 <div class="off_canvars_overlay">
 </div>
@@ -12,76 +15,23 @@ layout: default
 <section class="infetech-service-area infetech-service-page-area">
     <div class="container">
         <div class="row">
+            {% for service in site.services %}
             <div class="col-lg-4 col-md-6">
                 <div class="single-infetech-serice-item animated wow fadeInUp" data-wow-duration="1500ms"
                     data-wow-delay="0ms">
                     <div class="thumb">
-                        <img src="assets/images/service-1.jpg" alt="">
+                        <img src="{{service.feature_image | relative_url}}" alt="{{service.title}}">
                     </div>
                     <div class="content">
                         <div class="icon">
                             <img src="assets/images/icon/service-icon-1.png" alt="">
                         </div>
-                        <h3 class="title"><a href="/service-web.html">Web Development</a></h3>
+                        <h3 class="title"><a href="{{service.url | relative_url}}">{{service.title}}</a></h3>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-infetech-serice-item animated wow fadeInUp" data-wow-duration="1500ms"
-                    data-wow-delay="300ms">
-                    <div class="thumb">
-                        <img src="assets/images/service-2.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <div class="icon">
-                            <img src="assets/images/icon/service-icon-2.png" alt="">
-                        </div>
-                        <h3 class="title"><a href="/service-mobile.html">Mobile App Development</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-infetech-serice-item animated wow fadeInUp" data-wow-duration="1500ms"
-                    data-wow-delay="600ms">
-                    <div class="thumb">
-                        <img src="assets/images/service-3.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <div class="icon">
-                            <img src="assets/images/icon/service-icon-3.png" alt="">
-                        </div>
-                        <h3 class="title"><a href="service-blockchain.html">Blockchain & Cryptocurrency</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-infetech-serice-item animated wow fadeInUp" data-wow-duration="1500ms"
-                    data-wow-delay="600ms">
-                    <div class="thumb">
-                        <img src="assets/images/service-3.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <div class="icon">
-                            <img src="assets/images/icon/service-icon-3.png" alt="">
-                        </div>
-                        <h3 class="title"><a href="service-custom.html">Custom Communication Solutions</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-infetech-serice-item animated wow fadeInUp" data-wow-duration="1500ms"
-                    data-wow-delay="600ms">
-                    <div class="thumb">
-                        <img src="assets/images/service-3.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <div class="icon">
-                            <img src="assets/images/icon/service-icon-3.png" alt="">
-                        </div>
-                        <h3 class="title"><a href="service-penetration.html">Penetration Testing</a></h3>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
+           
         </div>
     </div>
 </section>

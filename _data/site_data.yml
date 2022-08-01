@@ -1,0 +1,124 @@
+home:
+  hero_section:
+    title: Your Security Expert
+    description: "We are a software boutique, specialized in privacy and security solutions. Our team builds different apps and infrastructure for both private and public sectors."
+    cover_image: "/assets/images/banner-thumb-4.jpg"
+    btn_label: "Learn More"
+    btn_url: #
+
+  client_section:
+    top_heading: What We’re Offering to Our Clients
+    heading: What We’re Offering to Our Clients
+    services:
+      - title: Web Development
+        icon: "/assets/images/icon/web.svg"
+        description: "Protecturo is a leading full-cycle web development company in India providing result-oriented and cost-competitive advanced web development and design, enterprise applications, web portals, e-learning and training, e-commerce and social networking solutions to empower businesses"
+        link: #
+
+      - title: Mobile App Development
+        icon: "/assets/images/icon/mobile.svg"
+        description: "Our mobile application development practice and DevOps expertise empower businesses to design, develop, and modernize mobile applications that disrupt the norm and deliver business values."
+        link: #
+
+      - title: Blockchain & Cryptocurrency
+        icon: "/assets/images/icon/blockchain.svg"
+        description: "Starting from blockchain consulting to delivering hybrid exchange development solutions, we have the expertise in making decentralized technologies work for your business."
+        link: #
+
+      - title: Custom Communication Solutions
+        icon: "/assets/images/icon/custom.svg"
+        description: "We build tailor-made solutions for multiple types of organizations and governments. Our team has extensive knowledge in planning and deploying different server and client infrastructures, depending on the client’s demand."
+        link: #
+
+      - title: Penetration Testing
+        icon: "/assets/images/icon/penetration.svg"
+        description: "Penetration testing, or pentesting, is a form of ethical cyber security assessment that seeks to identify, safely exploit and help to remediate vulnerabilities across computer systems, applications and websites. By utilising the same tools and techniques used by cyber adversaries, pen testing replicates the conditions of a genuine attack."
+        link: #
+
+  sponsor_section:
+    - title: aws
+      img_src: "/assets/images/brand-logo/aws.svg"
+    - title: bitmain
+      img_src: "/assets/images/brand-logo/bitmain.svg"
+    - title: cloudflare
+      img_src: "/assets/images/brand-logo/cloudflare.svg"
+    - title: nvidia
+      img_src: "/assets/images/brand-logo/nvidia.svg"
+    - title: telegreeen
+      img_src: "/assets/images/brand-logo/telegreeen.svg"
+    - title: cloudflare
+      img_src: "/assets/images/brand-logo/cloudflare.svg"
+
+  imformation_section:
+    left_img_src: "/assets/images/undraw_security_re_a2rk 1.svg"
+    top_heading: Get to Know Us
+    heading: Projecturo Leading in Cyber Security
+    informations:
+      - title: 100% Privately owned
+        description: "We do not depend on any government, corporation or public"
+
+      - title: Strong development team
+        description: "With sum of over 200years of experience in the field of software and secure communication development, our team is realiable counterparty for any organization"
+
+      - title: Strong development team
+        description: "With sum of over 200years of experience in the field of software and secure communication development, our team is realiable counterparty for any organization"
+
+      - title: Partners (scroll link)
+        description: "We partner up with the biggest providers to deliver exceptional performance"
+
+      - title: Privacy oriented
+        description: "Our company will only ask for really manditory info (if needed). In those cases we will never provide this data to third party"
+
+    contact_text: Need cyber security consultation? Send a free request now
+    btn_label: Contact Us
+    btn_link: #
+
+  projects_section:
+    top_heading: Our Recent Projects
+    heading: Our Tech Projects
+    description: There are many variations of passages of available but majority have suffered alteration in some form, by humou or randomised words which don't look even slightly believable.
+
+  fact_section:
+    active_clients: 330
+    projects_completed: 920
+    glorious_years: 20
+    professional_team: 112
+
+  testimonial_section:
+    top_heading: Our Recent Projects
+    heading: What They’re Talking?
+    testimonials: 
+      - name: Lactima 
+        profile_img: '/assets/images/testimonial-thumb-1.png'
+        designation: Senior Designer
+        testimonial: 'This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum eu fugiat nulla pariatur.'
+
+      - name: Shirley Smith 
+        profile_img: '/assets/images/testimonial-thumb-2.png'
+        designation: Senior Designer
+        testimonial: 'This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum eu fugiat nulla pariatur.'
+        
+      - name: Lactima
+        profile_img: '/assets/images/testimonial-thumb-3.png'
+        designation: Senior Designer
+        testimonial: 'This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum eu fugiat nulla pariatur.'
+
+      - name: Shirley Smith 
+        profile_img: '/assets/images/testimonial-thumb-4.png'
+        designation: Senior Designer
+        testimonial: 'This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum eu fugiat nulla pariatur.'
+
+  blog_section: 
+    top_heading: What’s Happening
+    heading: News & Articles
+
+  contact_section: 
+    top_heading: Contact with Us
+    heading: Write Email Now
+    left_info:
+      - title: Cloud Based Services
+        description: Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text quis bibendum. Vestibulum non sollicitudin diam. Sed mac sem ipsum.
+
+      - title: Expert Team Members
+        description: Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text quis bibendum. Vestibulum non sollicitudin diam. Sed mac sem ipsum.
+

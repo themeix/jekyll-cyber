@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Charon Lite
-feature_image: '/assets/images/project-1.jpg'
+feature_image: '/assets/images/project-2.jpg'
+project_id: 2
 category: APP
 ---
 {% include menu.html %}
@@ -13,7 +14,7 @@ category: APP
       <div class="row align-items-center">
          <div class="col-lg-6 animated wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
             <div class="infetech-about-thumb">
-               <img class="main-thumb" src="assets/images/services/web2.webp" alt="">
+               <img class="main-thumb" src="{{'assets/images/services/web2.webp' | relative_url}}" alt="{{service.title}}">
 
             </div>
          </div>
@@ -28,10 +29,10 @@ category: APP
 
                <h3>Features</h3>
                <ul>
-                  <li><img class="me-2" src="assets/images/arrow-icon-2.svg" alt=""> OMEMO foreced encryption </li>
-                  <li><img class="me-2" src="assets/images/arrow-icon-2.svg" alt=""> Zero-knowledge server </li>
-                  <li><img class="me-2" src="assets/images/arrow-icon-2.svg" alt=""> Killswitch button</li>
-                  <li><img class="me-2" src="assets/images/arrow-icon-2.svg" alt=""> Password protected</li>
+                  <li><img class="me-2" src="{{'/assets/images/arrow-icon-2.svg' | relative_url}}" alt=""> OMEMO foreced encryption </li>
+                  <li><img class="me-2" src="{{'/assets/images/arrow-icon-2.svg' | relative_url}}" alt=""> Zero-knowledge server </li>
+                  <li><img class="me-2" src="{{'/assets/images/arrow-icon-2.svg' | relative_url}}" alt=""> Killswitch button</li>
+                  <li><img class="me-2" src="{{'/assets/images/arrow-icon-2.svg' | relative_url}}" alt=""> Password protected</li>
 
                </ul>
 
@@ -55,49 +56,5 @@ category: APP
    </div>
 </div>
 
-<section class="infetech-project-details-list-area pb-90">
-   <div class="container">
-      <div class="row justify-content-center">
-         <div class="col-lg-5">
-            <div class="section-title text-center mb-40">
-               <span>Recent Projects</span>
-               <h3 class="title">Explore Other Projects</h3>
-            </div>
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-lg-4 col-md-6">
-            <div class="single-project-item">
-               <img src="assets/images/project-4.jpg" alt="">
-               <div class="single-project-overlay">
-                  <h4 class="title">Hermes Device</h4>
-                  <span>DESIGN / IDEAS</span>
-                  <a href="#"><i class="fal fa-long-arrow-right"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6">
-            <div class="single-project-item">
-               <img src="assets/images/project-5.jpg" alt="">
-               <div class="single-project-overlay">
-                  <h4 class="title">Charon Lite</h4>
-                  <span>App</span>
-                  <a href="#"><i class="fal fa-long-arrow-right"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6">
-            <div class="single-project-item">
-               <img src="assets/images/project-6.jpg" alt="">
-               <div class="single-project-overlay">
-                  <h4 class="title">Global Coverage SIM</h4>
-                  <span>SIM</span>
-                  <a href="#"><i class="fal fa-long-arrow-right"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-
+{% include explore-other-projects.html %}
 {% include footer.html %}
