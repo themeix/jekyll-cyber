@@ -34,7 +34,7 @@
     <div class="row align-items-center">
       <div class="col-md-3">
         <div class="logo-white">
-          <a href="{{site.url}}"><img src="{{site.logo}}" alt="{{site.title}}"></a>
+          <a href="{{site.url | relative_url}}"><img src="{{site.logo | relative_url}}" alt="{{site.title}}"></a>
         </div>
       </div>
       <div class="col-md-6">
@@ -51,7 +51,7 @@
           </div>
           <div class="header-main-info-contact">
             <div class="icon">
-              <img src="{{site.mobile_logo}}" alt="{{site.title}}">
+              <img src="{{site.mobile_logo | relative_url}}" alt="{{site.title}}">
             </div>
             <div class="content">
               <span>Call Anytime</span>
