@@ -19,10 +19,10 @@
             </div>
             <div class="header-topbar-social">
               <ul>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="{{site.twitter | relative_url}}"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="{{site.facebook | relative_url}}"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="{{site.linkedin | relative_url}}"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="{{site.instagram | relative_url}}"><i class="fab fa-instagram"></i></a></li>
               </ul>
             </div>
           </div>
@@ -30,11 +30,11 @@
       </div>
     </div>
   </div>
-  <div class="header-main-nav-layout-2 header-sticky bg-dark">
+  <div class="header-main-nav-layout-2 {% if page.template != 'tags' %} header-sticky {% endif %} bg-dark">
     <div class="row align-items-center">
       <div class="col-md-3">
         <div class="logo-white">
-          <a href="{{site.url}}"><img src="/assets/images/logo-white.svg" alt="{{site.title}}"></a>
+          <a href="{{site.url}}"><img src="{{site.logo}}" alt="{{site.title}}"></a>
         </div>
       </div>
       <div class="col-md-6">
@@ -51,7 +51,7 @@
           </div>
           <div class="header-main-info-contact">
             <div class="icon">
-              <img src="assets/images/icon/phone-white.svg" alt="">
+              <img src="{{site.mobile_logo}}" alt="{{site.title}}">
             </div>
             <div class="content">
               <span>Call Anytime</span>

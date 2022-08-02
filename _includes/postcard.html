@@ -1,13 +1,12 @@
 <div class="single-blog-item animated wow fadeInUp" data-wow-duration="500ms" data-wow-delay="0ms">
     <div class="thumb">
         <a href="#"><img src="{{post.feature_image | relative_url}}" alt=""></a>
-        <span>18 mar</span>
+        <span>{{post.date | date: '%d %b'}}</span>
     </div>
     <div class="content">
         <div class="blog-meta">
             <ul>
-                <li><i class="fal fa-user-circle"></i> by Admin</li>
-
+                <li><i class="fal fa-user-circle"></i> by {{post.author_name}}</li>
             </ul>
             <h4 class="title"><a href="{{post.url | relative_url}}">{{post.title}}</a>
             </h4>

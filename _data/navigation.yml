@@ -1,28 +1,28 @@
 - text: Home
   url: /
 - text: Services
-  url: /
+  url: /all-services
   submenu:
     - text: Web Development
-      url: /web-development
+      url: /service/web
     - text: Mobile App Development
-      url: /mobile-app-development
+      url: /service/mobile
     - text: Blockchain & Cryptocurrency
-      url: /blockchain-and-cryptocurrency
+      url: /service/blockchain
     - text: Custom Communication Solutions
-      url: /custom-communication-solutions
+      url: /service/custom
     - text: Penetration testing
-      url: /penetration-testing
+      url: /service/penetration
 - text: Projects
-  url: /projects
+  url: /all-projects
   submenu:
     - text: Hermes Device
-      url: /hermes-device
+      url: /project/hermes-device
     - text: Charon Lite
-      url: /charon-lite
+      url: /project/charon
     - text: VPN
-      url: /vpn
+      url: /project/vpn
 - text: Blog
-  url: /contact
+  url: /blog
 - text: Contact
   url: /contact

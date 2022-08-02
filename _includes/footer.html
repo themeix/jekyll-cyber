@@ -1,38 +1,40 @@
-<!--====== INFETECH FOOTER 4 PART START ======-->
-
 <footer class="infetech-footer-area pt-120 pb-120">
   <div class="container">
     <div class="row">
       <div class="col-lg-3   col-md-6">
         <div class="footer-about">
-          <a href="#"><img src="assets/images/logo-white.svg" alt=""></a>
+          <a href="{{site.url}}"><img src="{{'/assets/images/logo-white.svg' | relative_url}}" alt=""></a>
+
           <p>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
+
           <ul>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="{{site.twitter | relative_url}}"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="{{site.facebook | relative_url}}"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="{{site.linkedin | relative_url}}"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="{{site.instagram | relative_url}}"><i class="fab fa-instagram"></i></a></li>
           </ul>
+
         </div>
       </div>
+
       <div class="col-lg-2 offset-lg-4 col-md-6">
         <div class="footer-nav">
+
           <h4 class="title pb-3">Links</h4>
           <ul>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-
+            <li><a href="/all-services">Services</a></li>
+            <li><a href="/all-projects">Projects</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/terms">Terms of service</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
           </ul>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6">
         <div class="footer-info">
-          <h4 class="title  pb-3">Contact</h4>
+          <h4 class="title pb-3">Contact</h4>
           <ul>
             <li><i class="fas fa-phone"></i><span>+ +359888951312</span></li>
             <li><i class="fas fa-envelope"></i><span>info@protecturo.com</span></li>
@@ -45,20 +47,16 @@
 </footer>
 
 <div class="footer-copyright infetech-footer-area">
-  <p>© All Copyright 2022 by protecturo</p>
+  <p>© All Copyright <script>const date = new Date(); document.write(date.getFullYear()); </script> by protecturo</p>
 </div>
-
-<!--====== INFETECH FOOTER 4 PART ENDS ======-->
-
-<!--====== GO TO TOP PART START ======-->
 
 <div class="go-top-area">
   <div class="go-top-wrap">
-      <div class="go-top-btn-wrap">
-          <div class="go-top go-top-btn">
-              <i class="fal fa-angle-double-up"></i>
-              <i class="fal fa-angle-double-up"></i>
-          </div>
+    <div class="go-top-btn-wrap">
+      <div class="go-top go-top-btn">
+        <i class="fal fa-angle-double-up"></i>
+        <i class="fal fa-angle-double-up"></i>
       </div>
+    </div>
   </div>
 </div>

@@ -1,9 +1,10 @@
 ---
 layout: default
-permalink: /blog
+title: Tags
+template: tags
+permalink: /tags
 ---
-<div class="off_canvars_overlay">
-</div>
+
 
 {% include menu.html %}
 {% include header.html %}
@@ -11,13 +12,18 @@ permalink: /blog
 
 <section class="infetech-blog-page-area pt-120 pb-90">
     <div class="container">
+        {% for tag in site.tags %}
         <div class="row">
+            <div id="tag-{{ tag[0] | slugify}}">
+                <h3 class="pb-20">{{ tag[0] | capitalize }}</h3>
+            </div>
             {% for post in site.posts %}
             <div class="col-lg-4 col-md-6">
                 {% include postcard.html %}
             </div>
             {% endfor %}
         </div>
+        {% endfor %}
     </div>
 </section>
 

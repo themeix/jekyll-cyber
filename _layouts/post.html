@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="off_canvars_overlay">
+</div>
+
+{% include menu.html %}
+{% include header.html %}
+
+<section class="infetech-blog-details-area pt-180 pb-120">
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h1 class="title pb-3">{{page.title}}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog-details-box mt-30">
+                    <div class="top-content">
+                        <div class="thumb pb-5">
+                            <img src="{{page.feature_image | relative_url}}" alt="{{page.title}}">
+                        </div>
+                        {{page.content}}
+                    </div>
+                    <div class="blog-social-box">
+                        <div class="blgo-tags-details">
+                            <span>Tags</span>
+                            <ul>
+                                {% for tag in page.tags %}
+                                    <li><a href="/tags/#tag-{{tag | slugify}}">{{tag}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% include social-share.html %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-sidebar mt-30">
+
+                    <div class="blog-widgets blog-sidebar-list mt-30">
+                        <div class="blog-title">
+                            <h3 class="title">Latest Posts</h3>
+                        </div>
+                        {% for post in site.posts limit:5 %}
+                            {% if post.post_id != page.post_id %}
+                                <div class="blog-item">
+                                    {% if post.feature_image%}
+                                    <div class="thumb">
+                                        <img src="{{post.feature_image}}" alt="{{post.title}}">
+                                    </div>
+                                    {% endif %}
+                                    <div class="content">
+                                        <a href="{{post.url}}">
+                                            <h5 class="title">{{post.title}}</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include section-cta.html %}
+{% include footer.html %}

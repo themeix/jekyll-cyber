@@ -10,27 +10,27 @@ home:
     top_heading: What We’re Offering to Our Clients
     heading: What We’re Offering to Our Clients
     services:
-      - title: Web Development
+      - title: Web <br> Development
         icon: "/assets/images/icon/web.svg"
         description: "Protecturo is a leading full-cycle web development company in India providing result-oriented and cost-competitive advanced web development and design, enterprise applications, web portals, e-learning and training, e-commerce and social networking solutions to empower businesses"
         link: #
 
-      - title: Mobile App Development
+      - title: Mobile App <br> Development
         icon: "/assets/images/icon/mobile.svg"
         description: "Our mobile application development practice and DevOps expertise empower businesses to design, develop, and modernize mobile applications that disrupt the norm and deliver business values."
         link: #
 
-      - title: Blockchain & Cryptocurrency
+      - title: Blockchain & <br> Cryptocurrency
         icon: "/assets/images/icon/blockchain.svg"
         description: "Starting from blockchain consulting to delivering hybrid exchange development solutions, we have the expertise in making decentralized technologies work for your business."
         link: #
 
-      - title: Custom Communication Solutions
+      - title: Custom Communication <br> Solutions
         icon: "/assets/images/icon/custom.svg"
         description: "We build tailor-made solutions for multiple types of organizations and governments. Our team has extensive knowledge in planning and deploying different server and client infrastructures, depending on the client’s demand."
         link: #
 
-      - title: Penetration Testing
+      - title: Penetration <br> Testing
         icon: "/assets/images/icon/penetration.svg"
         description: "Penetration testing, or pentesting, is a form of ethical cyber security assessment that seeks to identify, safely exploit and help to remediate vulnerabilities across computer systems, applications and websites. By utilising the same tools and techniques used by cyber adversaries, pen testing replicates the conditions of a genuine attack."
         link: #
@@ -115,10 +115,17 @@ home:
   contact_section: 
     top_heading: Contact with Us
     heading: Write Email Now
+    form_action_link: https://formspree.io/f/xdoyzzoz
     left_info:
       - title: Cloud Based Services
         description: Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text quis bibendum. Vestibulum non sollicitudin diam. Sed mac sem ipsum.
 
       - title: Expert Team Members
         description: Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text quis bibendum. Vestibulum non sollicitudin diam. Sed mac sem ipsum.
+
+  cta_section: 
+    top_heading: We’re here to help to grow your business.
+    heading: Looking for the Best IT Business Solutions?
+    btn_label: Learn More
+    btn_link: #
 
