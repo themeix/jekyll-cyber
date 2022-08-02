@@ -17,7 +17,7 @@
   url: /all-projects
   submenu:
     - text: Hermes Device
-      url: /project/hermes-device
+      url: /project/hermes
     - text: Charon Lite
       url: /project/charon
     - text: VPN
