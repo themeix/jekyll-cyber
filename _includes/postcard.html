@@ -1,6 +1,6 @@
 <div class="single-blog-item animated wow fadeInUp" data-wow-duration="500ms" data-wow-delay="0ms">
     <div class="thumb">
-        <a href="#"><img src="{{post.feature_image | relative_url}}" alt=""></a>
+        <a href="{{post.url | relative_url}}"><img src="{{post.feature_image | relative_url}}" alt="{{post.title}}"></a>
         <span>{{post.date | date: '%d %b'}}</span>
     </div>
     <div class="content">

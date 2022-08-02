@@ -8,10 +8,10 @@
                     </div>
                     <div class="offcanvas-social">
                         <ul class="text-center">
-                            <li><a href="$"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="$"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="$"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="$"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="{{site.twitter | relative_url}}"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="{{site.facebook | relative_url}}"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="{{site.linkedin | relative_url}}"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="{{site.instagram | relative_url}}"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                     <div id="menu" class="text-left ">
@@ -20,11 +20,11 @@
 
                             {% for link in site.data.navigation %}
                             <li class="menu-item-has-children active">
-                                <a href="{{link.url relative_url}}">{{link.text}}</a>
+                                <a href="{{link.url | relative_url}}">{{link.text}}</a>
                                 {% if link.submenu %}
                                 <ul class="sub-menu">
                                     {% for subitem in link.submenu %}
-                                    <li><a href="{{subitem.link relative_url}}">{{subitem.text}}</a></li>
+                                    <li><a href="{{subitem.link | relative_url}}">{{subitem.text}}</a></li>
                                     {% endfor %}
                                 </ul>
                                 {% endif %}

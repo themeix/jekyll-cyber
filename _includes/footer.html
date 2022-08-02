@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-3   col-md-6">
         <div class="footer-about">
-          <a href="{{site.url}}"><img src="{{'/assets/images/logo-white.svg' | relative_url}}" alt=""></a>
+          <a href="{{site.url | relative_url}}"><img src="{{'/assets/images/logo-white.svg' | relative_url}}" alt=""></a>
 
           <p>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
 
@@ -22,12 +22,12 @@
 
           <h4 class="title pb-3">Links</h4>
           <ul>
-            <li><a href="/all-services">Services</a></li>
-            <li><a href="/all-projects">Projects</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/terms">Terms of service</a></li>
-            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="{{'/all-services' | relative_url}}">Services</a></li>
+            <li><a href="{{'/all-projects' | relative_url}}">Projects</a></li>
+            <li><a href="{{'/blog' | relative_url}}">Blog</a></li>
+            <li><a href="{{'/contact' | relative_url}}">Contact</a></li>
+            <li><a href="{{'/terms' | relative_url}}">Terms of service</a></li>
+            <li><a href="{{'/privacy' | relative_url}}">Privacy Policy</a></li>
           </ul>
         </div>
       </div>

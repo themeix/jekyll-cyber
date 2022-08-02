@@ -30,7 +30,7 @@ layout: default
                             <span>Tags</span>
                             <ul>
                                 {% for tag in page.tags %}
-                                    <li><a href="/tags/#tag-{{tag | slugify}}">{{tag}}</a></li>
+                                    <li><a href="{{'/tags/' | relative_url}}#tag-{{tag | slugify}}">{{tag}}</a></li>
                                 {% endfor %}
                             </ul>
                         </div>
@@ -50,11 +50,11 @@ layout: default
                                 <div class="blog-item">
                                     {% if post.feature_image%}
                                     <div class="thumb">
-                                        <img src="{{post.feature_image}}" alt="{{post.title}}">
+                                        <img src="{{post.feature_image | relative_url}}" alt="{{post.title}}">
                                     </div>
                                     {% endif %}
                                     <div class="content">
-                                        <a href="{{post.url}}">
+                                        <a href="{{post.url | relative_url}}">
                                             <h5 class="title">{{post.title}}</h5>
                                         </a>
                                     </div>

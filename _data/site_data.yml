@@ -13,27 +13,27 @@ home:
       - title: Web <br> Development
         icon: "/assets/images/icon/web.svg"
         description: "Protecturo is a leading full-cycle web development company in India providing result-oriented and cost-competitive advanced web development and design, enterprise applications, web portals, e-learning and training, e-commerce and social networking solutions to empower businesses"
-        link: #
+        link: /service/web
 
       - title: Mobile App <br> Development
         icon: "/assets/images/icon/mobile.svg"
         description: "Our mobile application development practice and DevOps expertise empower businesses to design, develop, and modernize mobile applications that disrupt the norm and deliver business values."
-        link: #
+        link: /service/mobile
 
       - title: Blockchain & <br> Cryptocurrency
         icon: "/assets/images/icon/blockchain.svg"
         description: "Starting from blockchain consulting to delivering hybrid exchange development solutions, we have the expertise in making decentralized technologies work for your business."
-        link: #
+        link: /service/blockchain
 
       - title: Custom Communication <br> Solutions
         icon: "/assets/images/icon/custom.svg"
         description: "We build tailor-made solutions for multiple types of organizations and governments. Our team has extensive knowledge in planning and deploying different server and client infrastructures, depending on the client’s demand."
-        link: #
+        link: /service/custom
 
       - title: Penetration <br> Testing
         icon: "/assets/images/icon/penetration.svg"
         description: "Penetration testing, or pentesting, is a form of ethical cyber security assessment that seeks to identify, safely exploit and help to remediate vulnerabilities across computer systems, applications and websites. By utilising the same tools and techniques used by cyber adversaries, pen testing replicates the conditions of a genuine attack."
-        link: #
+        link: /service/penetration
 
   sponsor_section:
     - title: aws
