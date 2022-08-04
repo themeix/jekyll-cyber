@@ -10,8 +10,8 @@
 # Site settings
 title: "Cyver Security - Responsive News, Magazine Premium Jekyll Theme"
 email: "info@protecturo.com"
-url: "https://jekyll-cyber-security.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://themeix.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll-cyber" # the subpath of your site, e.g. /blog
 logo: /assets/images/logo-white.svg
 mobile_logo: /assets/images/icon/phone-white.svg
 description: "Cyver Security is a responsive Jekyll template for your business website"
