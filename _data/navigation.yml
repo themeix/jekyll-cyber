@@ -22,6 +22,8 @@
       url: /project/charon
     - text: VPN
       url: /project/vpn
+    - text: Global Coverage SIM
+      url: /project/global-sim      
 - text: Blog
   url: /blog
 - text: Contact
